@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.menu-bar {
+  min-height: 8%;
+  background: linear-gradient(to right, #ff105f, #ffad06);
+}
+.menu-bar img {
+  width: 80px;
+}
+.nav-link {
+  color: white;
+}
+.nav-link:hover {
+  color: black;
+  transition: 1s;
+}
+.active {
+  color: black !important;
+}
+.navbar-toggler .fa {
+  color: white;
+}
+.navbar-toggler {
+  outline: none !important;
+}
+.banner {
+  min-height: 77%;
+  color: rgb(86, 8, 105);
+}
+.banner img {
+  position: relative;
+  width: 100%;
+}
+.info {
+  margin: 24% auto;
+}
+.info h1 {
+  font-size: 30px;
+  font-family: cursive;
+}
+.info p {
+  font-family: serif;
+}
+.linking {
+  font-style: normal;
+  color: black;
+}
+.footer-widget {
+  min-height: 15%;
+  background-image: linear-gradient(to right, #ff105f, #ffad06);
+  padding: 21px 0;
+  display: inline-flex;
+  color: #fff;
+}
+.footer-text {
+  padding-left: 25px;
+}
+.footer-widget .fa {
+  font-size: 25px;
+}
+.row {
+  position: relative;
+  top: 32px;
+  margin: 0 !important;
+}
+.social-icons {
+  margin: 0 20px;
+}
+.social-icons .fa {
+  padding: 10px;
+}
+
+@media only screen and (max-width: 960px) {
+  .footer-widget {
+    background-image: linear-gradient(#ff105f, #ffad06);
+  }
+}
