@@ -43,12 +43,12 @@ form {
   color: white;
   margin-top: 18px;
   padding: 10px;
-  background: linear-gradient(to right, #e94f83, #ffad06);
+  background:linear-gradient(to right, #c04169,#db494e);
   border: none;
   cursor: pointer;
 }
 .btn:hover {
-  background: linear-gradient(to right, #ff216b, #ffad06);
+  background:linear-gradient(to right, #a40a3c,#d92027);
   color: white;
   transition: 1s;
 }

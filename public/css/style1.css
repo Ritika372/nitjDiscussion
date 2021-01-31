@@ -5,7 +5,7 @@
 
 .menu-bar {
   min-height: 8%;
-  background: linear-gradient(to right, #ff105f, #ffad06);
+  background:linear-gradient(to right, #a40a3c,#d92027);
 }
 .menu-bar img {
   width: 80px;
@@ -50,7 +50,7 @@
 }
 .footer-widget {
   min-height: 15%;
-  background-image: linear-gradient(to right, #ff105f, #ffad06);
+  background-image: linear-gradient(to right, #a40a3c,#d92027);
   padding: 21px 0;
   display: inline-flex;
   color: #fff;
@@ -75,6 +75,6 @@
 
 @media only screen and (max-width: 960px) {
   .footer-widget {
-    background-image: linear-gradient(#ff105f, #ffad06);
+    background-image: linear-gradient(to right, #a40a3c,#d92027);
   }
 }
