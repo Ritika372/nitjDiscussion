@@ -179,7 +179,17 @@ app.post('/ansQue/:queId', function (req, res) {
 
 //videoCall
 app.get('/videocall', function (req, res) {
-  res.render('videoCall');
+  res.render('videoCall', { name: currUser.name });
+});
+
+//exam time
+app.get('/examTime', function (req, res) {
+  res.render('notes', { name: currUser.name });
+});
+
+//campus
+app.get('/campus', function (req, res) {
+  res.render('camp');
 });
 
 //listen to port

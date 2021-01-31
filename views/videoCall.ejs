@@ -32,20 +32,79 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Basic Communication</title>
-  <link rel="stylesheet" href="./assets/common.css" />
+  <!-- <link rel="stylesheet" href="./assets/common.css" /> -->
+  <link rel="stylesheet" href="css/style2.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
-<body class="agora-theme">
-  <div class="navbar-fixed">
+<style>
+  .form{
+    align-items: center;
+  }
+</style>
+<body>
+  <div class="menu-bar">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg">
+        <a class="nav-item nav-link" href="#">Welcome <%= name %></a>
+        
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto text-right">
+            <li class="nav-item">
+              <a class="nav-link" href="/landing">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/home">CHARCHA</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="/examTime">Exam Time</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/campus">Campus Tour</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.nitj.ac.in/">NITJ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/login">Log Out</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+  <!-- <div class="navbar-fixed">
     <nav class="agora-navbar">
       <div class="nav-wrapper agora-primary-bg valign-wrapper">
         <h5 class="left-align">Basic Communication</h5>
         <a href="https://github.com/AgoraIO/Basic-Video-Call/tree/master/One-to-One-Video/Agora-Web-Tutorial-1to1" class="agora-github-pin"></a>
       </div>
     </nav>
-  </div>
-  <form id="form" class="row col l12 s12">
-    <div class="row container col l12 s12">
-      <div class="col" style="min-width: 433px; max-width: 443px">
+  </div> -->
+  <form id="form" class  ="form">
+    <div class="container">
+      <br><br>
+      <div class="offset-4 col-md-8" style="min-width: 433px; max-width: 443px">
         <div class="card" style="margin-top: 0px; margin-bottom: 0px;">
           <div class="row card-content" style="margin-bottom: 0px;">
               <div class="input-field">
@@ -70,7 +129,7 @@
               </div>
           </div>
         </div>
-        <ul class="collapsible card agora-secondary-border" style="margin-top: .4rem; border: 1px ">
+        <!-- <ul class="collapsible card agora-secondary-border" style="margin-top: .4rem; border: 1px ">
           <li>
             <div class="collapsible-header agora-secondary-bg">
               <h8 class="center-align">ADVANCED SETTINGS</h8>
@@ -129,7 +188,7 @@
                 </div>
               </div>
           </li>
-        </ul>
+        </ul> -->
       </div>
       <div class="col s7">
         <div class="video-grid" id="video">
