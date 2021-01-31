@@ -5,11 +5,13 @@
 
 .menu-bar {
   min-height: 8%;
-  background: linear-gradient(to right, #ff105f, #ffad06);
+  background:linear-gradient(to right, #a40a3c,#d92027);
 }
 .fix{
-  background: linear-gradient(to right,#ffad06, #ff105f);
-
+  background:linear-gradient(to left, #a40a3c,#d92027);
+}
+.fix:hover{
+  color: #000;
 }
 .menu-bar img {
   width: 80px;
@@ -68,10 +70,10 @@
   color: rgb(49, 17, 17);
 }
 .bg1 {
-  background: linear-gradient(to right, #ff6095, #ffc552);
+  background:linear-gradient(to right, #a3274f,#db494e);
 }
 .bg2 {
-  background: linear-gradient(to right, #fdbf43, #ff3c7d);
+  background:linear-gradient(to right, #a3274f,#db494e);
 }
 
 .rbg1 h2 {

@@ -10,7 +10,7 @@ body {
 
 .menu-bar {
   min-height: 8%;
-  background: linear-gradient(to right, #ff105f, #ffad06);
+  background:linear-gradient(to right, #a40a3c,#d92027);
   position: fixed;
   width: 100%;
 }
