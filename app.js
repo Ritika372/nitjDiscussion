@@ -189,7 +189,7 @@ app.get('/examTime', function (req, res) {
 
 //campus
 app.get('/campus', function (req, res) {
-  res.render('camp');
+  res.render('camp', { name: currUser.name });
 });
 
 //listen to port
