@@ -32,7 +32,7 @@ Open a browser (preferrably Google Chrome) on your local machine and start local
 3. Implementing screen sharing in video conferencing.
 
 
-For any suggestions, feel free to contact:
-Ritika Goyal https://www.linkedin.com/in/ritika372/
-Shreya https://www.linkedin.com/in/shreyag21/
+For any suggestions, feel free to contact:<br>
+Ritika Goyal https://www.linkedin.com/in/ritika372/ <br>
+Shreya https://www.linkedin.com/in/shreyag21/<br>
 Rajan Kataria https://www.linkedin.com/in/rajan1199/
