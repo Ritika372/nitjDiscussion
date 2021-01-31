@@ -7,6 +7,10 @@
   min-height: 8%;
   background: linear-gradient(to right, #ff105f, #ffad06);
 }
+.fix{
+  background: linear-gradient(to right,#ffad06, #ff105f);
+
+}
 .menu-bar img {
   width: 80px;
 }
