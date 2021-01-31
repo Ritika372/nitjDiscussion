@@ -109,7 +109,7 @@ section #Start {
 
 #Hostels {
   height: 1300px;
-  background: rgb(243, 231, 233);;
+  background: rgb(243, 231, 233);
   display: inline-block;
   width: 100%;
 }
@@ -180,25 +180,25 @@ section #Start {
 
 #Canteens {
   height: 360px;
-  background  rgb(243, 231, 233);;
+  background: rgb(243, 231, 233);
   display: inline-block;
   width: 100%;
 }
 #Sports {
   height: 800px;
-  background:  rgb(243, 231, 233);;
+  background: rgb(243, 231, 233);
   display: inline-block;
   width: 100%;
 }
 #Hostels2 {
   height: 400px;
-  background:  rgb(243, 231, 233);;
+  background: rgb(243, 231, 233);
   display: inline-block;
   width: 100%;
 }
 #Others {
   height: 800px;
-  background:  rgb(243, 231, 233);;
+  background: rgb(243, 231, 233);
   display: inline-block;
   width: 100%;
 }
