@@ -70,10 +70,10 @@
   color: rgb(49, 17, 17);
 }
 .bg1 {
-  background:linear-gradient(to right, #a3274f,#db494e);
+  background:linear-gradient(to right, #b6184a,#ec363c);
 }
 .bg2 {
-  background:linear-gradient(to right, #a3274f,#db494e);
+  background:linear-gradient(to left, #a81b48,#d92027);
 }
 
 .rbg1 h2 {
