@@ -32,7 +32,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Basic Communication</title>
-  <!-- <link rel="stylesheet" href="./assets/common.css" /> -->
+  <link rel="stylesheet" href="./assets/common.css" />
   <link rel="stylesheet" href="css/style2.css" />
     <link
       rel="stylesheet"
@@ -47,13 +47,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
 <style>
-  body {
-        background: #eff0eb;
-        background-image: url('https://i.postimg.cc/MTbfnkj6/bg.png');
-        background-size: cover;
-        background-repeat: no-repeat;
-      }
-      .btn {
+  .btn {
         background: linear-gradient(to right, #e94f83, #ffad06);
         color: white;
         border-radius: 10px;
@@ -63,14 +57,13 @@
         color: white;
         transition: 1s;
       }
-      
 </style>
-<body>
-  <div class="menu-bar">
+<body class="agora-theme">
+  <div class="menu-bar" style = "background: linear-gradient(to right, #ff105f, #ffad06);">
     <div class="container">
       <nav class="navbar navbar-expand-lg">
         <a class="nav-item nav-link" href="#">Welcome <%= name %></a>
-        
+        <!-- <a class="navbar-brand" href="#"> Ghar Pe Campus </a> -->
         <button
           class="navbar-toggler"
           type="button"
@@ -94,7 +87,7 @@
               <a class="nav-link active" href="/examTime">Exam Time</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/campus">Campus Tour</a>
+              <a class="nav-link" href="#">Campus Tour</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="https://www.nitj.ac.in/">NITJ</a>
@@ -115,35 +108,36 @@
       </div>
     </nav>
   </div> -->
-  <form id="form" class  ="form">
-    <div class="container">
-      <br><br>
-      <div class="offset-4 col-md-7" style="min-width: 433px; max-width: 443px">
-        <div class="card" style="padding-top: 10px; margin-bottom: 0px;">
-          <div class="card-content" style="height: 180px; width: 400px;">
+  <form id="form" class="row col l12 s12">
+    <div class="row container col l12 s12">
+      <div class="col" style="min-width: 433px; max-width: 443px">
+        <div class="card" style="margin-top: 0px; margin-bottom: 0px;">
+          <div class="row card-content" style="margin-bottom: 0px;">
               <div class="input-field">
                 <label for="appID" class="active">App ID</label>
-                <input type="text" placeholder="App ID" name="appID">
-              </div>
+                <input type="text" placeholder="App ID" name="appID">&nbsp;&nbsp;
+              </div> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               <div class="input-field">
                 <label for="channel" class="active">Channel</label>
                 <input type="text" placeholder="channel" name="channel">
-              </div>
+              </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               <div class="input-field">
                 <label for="token" class="active">Token</label>
                 <input type="text" placeholder="token" name="token">
               </div>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               <div class="row" style="margin: 0">
                 <div class="col s12">
-                <button class="btn " id="join">JOIN</button>
-                <button class="btn" id="leave">LEAVE</button>
-                <button class="btn" id="publish">PUBLISH</button>
-                <button class="btn" id="unpublish">UNPUBLISH</button>
+                  <br>
+                <button class="btn btn-raised " id="join">JOIN</button>
+                <button class="btn btn-raised " id="leave">LEAVE</button>
+                <button class="btn btn-raised btn-primary waves-effect waves-light" hidden id="publish">PUBLISH</button>
+                <button class="btn btn-raised btn-primary waves-effect waves-light" hidden id="unpublish">UNPUBLISH</button>
                 </div>
               </div>
           </div>
         </div>
-        <!-- <ul class="collapsible card agora-secondary-border" style="margin-top: .4rem; border: 1px ">
+        <ul class="collapsible card agora-secondary-border" style="margin-top: .4rem; border: 1px ">
           <li>
             <div class="collapsible-header agora-secondary-bg">
               <h8 class="center-align">ADVANCED SETTINGS</h8>
@@ -202,7 +196,7 @@
                 </div>
               </div>
           </li>
-        </ul> -->
+        </ul>
       </div>
       <div class="col s7">
         <div class="video-grid" id="video">
