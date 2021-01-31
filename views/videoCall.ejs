@@ -47,9 +47,23 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
 <style>
-  .form{
-    align-items: center;
-  }
+  body {
+        background: #eff0eb;
+        background-image: url('https://i.postimg.cc/MTbfnkj6/bg.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      .btn {
+        background: linear-gradient(to right, #e94f83, #ffad06);
+        color: white;
+        border-radius: 10px;
+      }
+      .btn:hover {
+        background: linear-gradient(to right, #ff216b, #ffad06);
+        color: white;
+        transition: 1s;
+      }
+      
 </style>
 <body>
   <div class="menu-bar">
@@ -104,9 +118,9 @@
   <form id="form" class  ="form">
     <div class="container">
       <br><br>
-      <div class="offset-4 col-md-8" style="min-width: 433px; max-width: 443px">
-        <div class="card" style="margin-top: 0px; margin-bottom: 0px;">
-          <div class="row card-content" style="margin-bottom: 0px;">
+      <div class="offset-4 col-md-7" style="min-width: 433px; max-width: 443px">
+        <div class="card" style="padding-top: 10px; margin-bottom: 0px;">
+          <div class="card-content" style="height: 180px; width: 400px;">
               <div class="input-field">
                 <label for="appID" class="active">App ID</label>
                 <input type="text" placeholder="App ID" name="appID">
@@ -121,10 +135,10 @@
               </div>
               <div class="row" style="margin: 0">
                 <div class="col s12">
-                <button class="btn btn-raised btn-primary waves-effect waves-light" id="join">JOIN</button>
-                <button class="btn btn-raised btn-primary waves-effect waves-light" id="leave">LEAVE</button>
-                <button class="btn btn-raised btn-primary waves-effect waves-light" id="publish">PUBLISH</button>
-                <button class="btn btn-raised btn-primary waves-effect waves-light" id="unpublish">UNPUBLISH</button>
+                <button class="btn " id="join">JOIN</button>
+                <button class="btn" id="leave">LEAVE</button>
+                <button class="btn" id="publish">PUBLISH</button>
+                <button class="btn" id="unpublish">UNPUBLISH</button>
                 </div>
               </div>
           </div>
